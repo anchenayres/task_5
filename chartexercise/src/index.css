@@ -1,0 +1,93 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li, p, a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    margin-bottom: 20px;
+    float: left;
+
+}
+
+h1 {
+    font-size: 3px;
+    color: white;
+}
+
+a:link{
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:active {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.nav {
+    width: 10%;
+    height: 100vh;
+    background-color: rgb(56, 140, 146);
+    float: left;
+}
+
+/* CHART */
+.componentsInterior {
+    width: 100%;
+    height: 80vh;
+    background-color: red;
+    margin-top: 25px;
+    padding: 2%;
+  }
+  
+  .exCon {
+    width: 90%;
+    float: left;    
+  }
+
+  .exArea {
+    width: 50%;
+    height: 50%;
+    float: left;  
+  }
+
+  .exDoughnut {
+    width: 50%;
+    height: 50%;
+    float: left; 
+  }
+
+  .exRadar {
+    width: 50%;
+    height: 50%;
+    float: left; 
+  }
+  
+  .exScatter {
+    width: 50%;
+    height: 50%;
+    float: left; 
+  }
+
+  input {
+    margin-right: 25px !important;
+    height: 35px;
+  }
+  
+  .chart {
+    width: 50% !important;
+    background-color: rgba(211, 99, 255, 0.2);
+  }
